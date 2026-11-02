@@ -1,4 +1,4 @@
-# 🚀 Personal Developer Portfolio & CMS (Modified Version)
+# 🚀 Personal Developer Portfolio & CMS Template 2 (Modified Version)
 
 > Website portofolio interaktif dan modern yang dibangun dengan **Next.js 16**, **React 19**, **TypeScript**, **Tailwind CSS v4**, serta terintegrasi penuh dengan **Firebase SDK (Authentication & Cloud Firestore)** untuk manajemen konten dinamis secara real-time via Admin Dashboard (`/admin`).
 
@@ -172,41 +172,6 @@ Jika Anda belum memiliki proyek Firebase:
        }
      }
      ```
-
----
-
-## 📦 Build & Deployment
-
-### Opsi 1: Deploy ke Vercel (Disarankan)
-
-1. Push kode Anda ke repository GitHub baru Anda.
-2. Buka **[Vercel Dashboard](https://vercel.com/)** dan klik **"Add New Project"**.
-3. Import repositori GitHub Anda.
-4. Pada bagian **Environment Variables**, tambahkan seluruh variabel dari `.env.example`.
-5. Klik **Deploy**.
-
-### Opsi 2: Deploy ke Firebase Hosting
-
-1. Pasang Firebase CLI secara global jika belum terpasang:
-   ```bash
-   npm install -g firebase-tools
-   ```
-2. Login ke Firebase:
-   ```bash
-   firebase login
-   ```
-3. Inisialisasi atau hubungkan ke project Anda:
-   ```bash
-   firebase use --add
-   ```
-4. Build aplikasi untuk static export:
-   ```bash
-   npm run build
-   ```
-5. Deploy:
-   ```bash
-   firebase deploy --only hosting
-   ```
 
 ---
 
