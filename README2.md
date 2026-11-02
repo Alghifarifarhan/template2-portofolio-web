@@ -1,13 +1,11 @@
 # 📖 Panduan Penggunaan Halaman Admin & Batasan Website Portofolio
 
-Selamat! Website portofolio Anda telah berhasil di-online-kan (hosting) di Firebase. File panduan ini dibuat khusus dengan bahasa yang sederhana agar mudah dipahami bagi siapa saja yang ingin mengelola konten website ini.
-
 ---
 
 ## 🔑 1. Cara Masuk ke Halaman Admin
 
 1. Buka halaman utama website Anda, lalu tambahkan `/admin` di belakang alamat URL website:
-   - **URL Publik**: `https://template2-portofolio.web.app/admin`
+   - **URL Publik**: `https://<domain-website-anda>.web.app/admin`
    - **URL Lokal**: `http://localhost:3000/admin`
 2. Masukkan **Email** dan **Password** Admin Anda, lalu klik **Sign In to Dashboard**.
 
@@ -140,22 +138,5 @@ Website ini memiliki fitur integrasi **Kalender Booking Interaktif (iFrame Widge
 3. Masukkan **Password Baru** (minimal 6 karakter) pada kolom yang disediakan.
 4. Ulangi password baru pada kolom konfirmasi.
 5. Klik **Update Admin Password**.
-
----
-
-## 📊 6. Batasan Kunjungan & Kuota Firebase
-
-Website ini di-hosting menggunakan layanan \*\*Firebase Plan (Spark Tier).
-
-### 📈 Batasan Kapasitas Harian:
-
-- **Pengunjung Website**: Sanggup melayani hingga **~1.000 sampai 1.200 pengunjung per hari** (~30.000 pengunjung per bulan).
-- **Membaca Data Website**: Sanggup melayani hingga **50.000 kali halaman dibuka per hari**.
-- **Menyimpan Data Admin**: Anda dapat menekan tombol simpan perubahan di Admin hingga **20.000 kali per hari**.
-
-### ❓ Apa yang terjadi jika pengunjung melebihi batas harian?
-
-- Jika dalam 1 hari pengunjung sangat melonjak melebihi 1.200 pengunjung, website akan "beristirahat" sementara dan menampilkan pesan kuota penuh.
-- **Buka Kembali Otomatis**: Kuota akan **diisi ulang (di-reset) secara otomatis setiap jam 14:00 WIB** setiap harinya.
 
 ---
